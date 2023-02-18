@@ -159,3 +159,16 @@ function writePassword() {
 // Add event listener to generate button
 
 generateBtn.addEventListener("click", writePassword);
+
+const copyButton = document.getElementById("copyPassword");
+copyButton.addEventListener("click", () => {
+  const password = document.getElementById("password").value;
+  navigator.clipboard
+    .writeText(password)
+    .then(() => {
+      console.log("Password copied to clipboard");
+    })
+    .catch((err) => {
+      console.error("Error copying password: ", err);
+    });
+});
