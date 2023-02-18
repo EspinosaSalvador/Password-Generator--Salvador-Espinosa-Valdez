@@ -91,7 +91,7 @@ Please proceed to click on Generate Password. an alert should pop up on your scr
 
 please continue with and click confirm or cancel
 
-* Confirm = True or Yes
+* OK = True or Yes
 
 * Cancel = False or No 
 
