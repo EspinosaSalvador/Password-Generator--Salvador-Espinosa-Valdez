@@ -100,7 +100,7 @@ function generatePassword() {
   var length = 0;
 
   // ! prompt user for length until a valid input is received
-  while (length < 8 || length > 128) {
+  while (isNaN(length) || length < 8 || length > 128) {
     length = prompt(
       "Enter password length this should be between 8 and 128 characters"
     );
@@ -110,7 +110,7 @@ function generatePassword() {
     }
     length = parseInt(length);
 
-    if (isNaN(length)) {
+    if (isNaN(length) || length < 8 || length > 128) {
       alert("Please enter a number between 8 and 128");
       length = 0;
     }
