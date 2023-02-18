@@ -42,11 +42,11 @@ To install this project please proceed to my [GitHub Repository](https://github.
 
 you should be able to see this,
 
-![Github Repository](./assets/Img/Github-Repository.png)
+![Github Repository](./Assets/Img/Github%20Repository.png)
 
 Click on code as shown in the image
 
-![Click on Code](./assets/Img/Code-ssh.png)
+![Click on Code](./Assets/Img/SSH.png)
 
 Copy the SSH key or the HTTPS key and open.
 
@@ -57,7 +57,7 @@ Copy the SSH key or the HTTPS key and open.
 either one of this will work. please proceed to the terminal an put in your Terminal,
 
 ```
-git clone git@github.com:EspinosaSalvador/Medical-Appointments.git
+git clone git@github.com:EspinosaSalvador/Password-Generator--Salvador-Espinosa-Valdez.git
 ```
 
 and now you have a copy of the code.
@@ -76,36 +76,38 @@ switch branches putting the following code on your terminal.
 git checkout ＜branchname＞
 ```
 
-If you want to show us your code and merge please open a pull request on [Github](https://github.com/EspinosaSalvador/Medical-Appointments/pulls).
+If you want to show us your code and merge please open a pull request on [Github](https://github.com/EspinosaSalvador/Password-Generator--Salvador-Espinosa-Valdez/pulls).
+
+![Pull request](./Assets/Img/Pull%20request.png)
 
 ## What you should be able to see
 
 These is what you should be able to see in the Webpage,
-![WEbpage](./assets/Img/terms%26conditions.png)
+![Webpage](./Assets/Img/Webpage%20working.png)
 
-after you click that you should be able to see this page
+Please proceed to click on Generate Password. an alert should pop up on your screen like this img
 
-![Webpage-2](./assets/Img/webpage-2.png)
+![Pop-up](./Assets/Img/generate%20password.png)
 
-and also there is a section where you can see our team
+please continue with and click confirm or cancel
 
-![Team-page](./assets/Img/Team-page.png)
+* Confirm = True or Yes
+
+* Cancel = False or No 
+
+this is the way the password should be seen the webpage.
+
+![Team-page](./Assets/Img/password-true.png)
+
+Please use the button copy password to add a copy to your clipboard.
 
 ## Troubleshooting
 
-The Code Quiz is in version 1.0 ,please let me know if there are anybug in the webpage by issuing it in [Github](https://github.com/EspinosaSalvador/Medical-Appointments/issues)
+The Password Generator is in version 1.0 ,please let me know if there are anybug in the webpage by issuing it in [Github](https://github.com/EspinosaSalvador/Password-Generator--Salvador-Espinosa-Valdez/issues)
 
 ## Next Phase Development
 
-* Create refresh button to eliminate local storage
-
-* Provide better format to the symptoms prompted
-
-* Provide better format to search results
-
-* Display all the search results per disease
-
-* Complete and implement login page
+This are will be updated depending on the feedback from the users.
 
 ## FAQ (Frecuentrly Asked Questions)
 
@@ -113,8 +115,4 @@ We will update this part when we have some frequently asked question.
 
 ## Team
 
-* Francisco Monteon
-* Moises Perez
-* Saul Awade
-* Ernesto Sosa
 * Salvador Espinosa Valdez
