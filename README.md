@@ -1,4 +1,4 @@
-# Medical Appointment
+# Password Generator
 
 ## Table of Content
 
